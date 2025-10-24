@@ -10,7 +10,7 @@ vehicle-performance-platform/
 ## Backend Setup
 run in the terminal -> uvicorn main:app -- reload
 
-This will start a server on http://localhost:8000 
+This will start a server on http://127.0.0.1:8000 
 
 ## Frontend Setup
 run in the terminal -> npm run dev
@@ -27,6 +27,18 @@ visit http:localhost:3000/dashboard
 - Created Next.js frontend and connected it  via fetch.
 - Understood why CORS is required for frontend-backend communication.
 - Next step: add visual telemetry charts using Recharts.
+
+## Reflection - Day 2 
+- Finalised dashboard layout
+- Selected key metrics to visualise
+    - Speed (km/h)
+    - Throttle and brake (%)
+    - Steering angle (°)
+    - RPM and Gear Gauges
+- Defined reusable component structure
+- Installed recharts for charts
+- Planned for simulated "live" playback mode using FastF1 data
+
 
 
 
